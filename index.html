@@ -9,27 +9,49 @@
 </head>
 
 <header class="topbar">
-	<div class="jonpan"><h2><a class="jonpantext" href="#">Jon Pan omg</a></h2></div>
-	<div class="about">
-		<a class="abouttext" id="aboutpink" href="https://jonmpan.github.io/my-new-site">My New Site</a>
-		<a class="abouttext"> &nbsp&nbsp|&nbsp&nbsp </a>
-		<a class="abouttext" id="aboutpink" href="#">Portfolio</a>
-		<a class="abouttext"> &nbsp&nbsp|&nbsp&nbsp </a>
-		<a class="abouttext" id="aboutpink" href="#"> Contact</a>
+	<div class="topbarcontainer">
+		<div class="jonpan">
+			<h2><a id="jonpantext" href="index.html">Jonathan Pan</a></h2>
+		</div>
+
+		<div class="topbarabout">
+			<a id="about" href="about.html">About</a>
+			<div id="portfolio">
+				<a id="portfoliotext" href="portfolio.html">Portfolio</a>
+			</div>
+			<a id="contact" href="contact.html">Contact</a>
+		</div>
 	</div>
 </header>
 
-<body background="assets/images/bg.jpg">
+<body>
+<div class="mainbody" background="assets/images/bg.jpg">
 <!-- <body> -->
-	<section class="aboutmecontainer">
-		<h2>About Me</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus, nibh sit amet ornare facilisis, risus nibh accumsan augue, malesuada tristique turpis velit ac enim. Morbi nisi erat, hendrerit ut fermentum ac, ullamcorper vitae dui. Sed tempor ex eget rhoncus blandit. Vestibulum id augue viverra, mollis odio sed, interdum ligula. Cras et ex blandit, mattis dui et, pretium sapien. In hac habitasse platea dictumst. Etiam sed lectus eu ipsum vehicula porttitor pretium ut nisi.</p>
-		<p>Nunc vitae mauris non justo ullamcorper dignissim in vel mauris. In venenatis vulputate ullamcorper. Maecenas eu dignissim sem. Integer porta non velit et euismod. Vivamus sollicitudin venenatis lacus ultrices vehicula. Donec non orci ac ante pulvinar egestas ac eu sem. Aliquam in vulputate enim. Nullam fermentum risus a orci tincidunt dictum. Nunc vel accumsan tortor.</p>
-	</section>
+	<div class="aboutmecontainer">
+		<p id="aboutmebodytext">About Me</p>
+		<img id="profilepic" src="http://via.placeholder.com/200x200">
+		<p id="aboutmeparagraphs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus, nibh sit amet ornare facilisis, risus nibh accumsan augue, malesuada tristique turpis velit ac enim. Morbi nisi erat, hendrerit ut fermentum ac, ullamcorper vitae dui. Sed tempor ex eget rhoncus blandit. Vestibulum id augue viverra, mollis odio sed, interdum ligula. Cras et ex blandit, mattis dui et, pretium sapien. In hac habitasse platea dictumst. Etiam sed lectus eu ipsum vehicula porttitor pretium ut nisi. Cras et ex blandit, mattis dui et, pretium sapien. In hac habitasse platea dictumst. Etiam sed lectus eu ipsum vehicula porttitor pretium ut nisi.</p>
+		<br>
+		<p id="aboutmeparagraphs">Nunc vitae mauris non justo ullamcorper dignissim in vel mauris. In venenatis vulputate ullamcorper. Maecenas eu dignissim sem. Integer porta non velit et euismod. Vivamus sollicitudin venenatis lacus ultrices vehicula. Donec non orci ac ante pulvinar egestas ac eu sem. Aliquam in vulputate enim. Nullam fermentum risus a orci tincidunt dictum. Nunc vel accumsan tortor.</p>
+	</div>
 	<section class="connectcontainer">
-		<h3>Connect with Me</h3>
+			<p id="connectborder">Connect with Me</p>
+		<div id="socialmedia">
+			<a href="#">
+				<img src="http://via.placeholder.com/70x70">
+			</a>
+			<a href="#">
+				<img src="http://via.placeholder.com/70x70">
+			</a>
+			<a href="#">
+				<img src="http://via.placeholder.com/70x70">
+			</a>
+		</div>
 	</section>
 
+</div>
+
 	<footer>©Copyright2017 Jonathan Pan</footer>
+
 </body>
 </html>
